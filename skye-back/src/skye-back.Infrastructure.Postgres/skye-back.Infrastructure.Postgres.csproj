@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>skye_back.Infrastructure</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\skye-back.Application\skye-back.Application.csproj" />
+      <ProjectReference Include="..\skye-back.Contracts\skye-back.Contracts.csproj" />
+      <ProjectReference Include="..\skye-back.Domain\skye-back.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
