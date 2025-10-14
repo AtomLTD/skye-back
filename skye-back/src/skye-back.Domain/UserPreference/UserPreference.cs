@@ -1,4 +1,6 @@
-﻿namespace skye_back.Domain.UserPreference;
+﻿using CSharpFunctionalExtensions;
+
+namespace skye_back.Domain.UserPreference;
 
 public class UserPreference
 {
