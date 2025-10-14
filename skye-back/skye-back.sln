@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skye-back.Domain", "src\sky
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skye-back.Application", "src\skye-back.Application\skye-back.Application.csproj", "{8A3C7D20-5DCD-49DD-A7D3-9D5A4CFE7239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skye-back.Infrastructure.Postgres", "src\skye-back.Infrastructure.Postgres\skye-back.Infrastructure.Postgres.csproj", "{1E9291FF-91F6-4C2C-8DE7-F70F32B566C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skye-back.Infrastructure", "src\skye-back.Infrastructure\skye-back.Infrastructure.csproj", "{1E9291FF-91F6-4C2C-8DE7-F70F32B566C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skye-back.Contracts", "src\skye-back.Contracts\skye-back.Contracts.csproj", "{F5720B6C-438F-4062-ACE4-F970D2D2FD35}"
 EndProject

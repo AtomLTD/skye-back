@@ -22,7 +22,7 @@
       <ProjectReference Include="..\skye-back.Application\skye-back.Application.csproj" />
       <ProjectReference Include="..\skye-back.Contracts\skye-back.Contracts.csproj" />
       <ProjectReference Include="..\skye-back.Domain\skye-back.Domain.csproj" />
-      <ProjectReference Include="..\skye-back.Infrastructure.Postgres\skye-back.Infrastructure.Postgres.csproj" />
+      <ProjectReference Include="..\skye-back.Infrastructure\skye-back.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
