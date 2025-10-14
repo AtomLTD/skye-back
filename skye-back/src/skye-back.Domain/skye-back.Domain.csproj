@@ -7,12 +7,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Conversation\" />
-      <Folder Include="Message\" />
-      <Folder Include="ModelInfo\" />
-      <Folder Include="UserPreference\" />
-      <Folder Include="User\" />
-    </ItemGroup>
-
 </Project>
