@@ -1,7 +1,7 @@
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using CSharpFunctionalExtensions;
 
-namespace skye_back.Domain.Conversation;
+namespace skye_back.Domain.UserPreference;
 
 public record Model
 {

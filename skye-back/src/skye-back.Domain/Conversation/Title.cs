@@ -4,9 +4,9 @@ namespace skye_back.Domain.Conversation;
 
 public record Title
 {
-    public const int MIN_LENGTH = 1;
+    private const int MIN_LENGTH = 1;
 
-    public const int MAX_LENGTH = 30;
+    private const int MAX_LENGTH = 30;
     
     private Title(string value)
     {
