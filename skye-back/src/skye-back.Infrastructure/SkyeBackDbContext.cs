@@ -4,6 +4,7 @@ using skye_back.Domain.Conversation;
 using skye_back.Domain.Message;
 using skye_back.Domain.ModelInfo;
 using skye_back.Domain.User;
+using skye_back.Domain.UserConversations;
 using skye_back.Domain.UserPreference;
 
 namespace skye_back.Infrastructure;
@@ -37,6 +38,8 @@ public class SkyeBackDbContext : DbContext
     public DbSet<ModelInfo> ModelInfos => Set<ModelInfo>();
 
     public DbSet<User> Users => Set<User>();
+
+    public DbSet<UserConversation> UserConversations => Set<UserConversation>();
 
     public DbSet<UserPreference> UserPreferences => Set<UserPreference>();
 }

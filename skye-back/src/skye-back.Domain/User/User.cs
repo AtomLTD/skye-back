@@ -1,4 +1,5 @@
 ﻿using CSharpFunctionalExtensions;
+using skye_back.Domain.UserConversations;
 
 namespace skye_back.Domain.User;
 
@@ -7,7 +8,7 @@ public class User
     // EF Core
     private User() { }
     
-    private User(YandexId yandexId, Email email, Name name, bool isActive)
+    private User(YandexId yandexId, Email email, Name name, bool isActive, List<UserConversation>? userConversations)
     {
         Id = Guid.NewGuid();
         CreatedAt = DateTime.UtcNow;
@@ -16,6 +17,7 @@ public class User
         Email = email;
         Name = name;
         IsActive = isActive;
+        _userConversations = userConversations;
     }
     
     public Guid Id { get; private set; }
@@ -32,9 +34,13 @@ public class User
 
     public DateTime UpdatedAt { get; private set; }
 
-    public static Result<User> Create(YandexId yandexId, Email email, Name name, bool isActive)
+    private readonly List<UserConversation>? _userConversations = [];
+
+    public IReadOnlyList<UserConversation>? UserConversations => _userConversations;
+
+    public static Result<User> Create(YandexId yandexId, Email email, Name name, bool isActive, List<UserConversation>? userConversations)
     {
-        var obj = new User(yandexId, email, name, isActive);
+        var obj = new User(yandexId, email, name, isActive, userConversations);
         return Result.Success(obj);
     }
 }
