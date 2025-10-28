@@ -44,4 +44,6 @@ if (app.Environment.IsDevelopment())
 
 app.MapControllers();
 
+Log.Information("Start");
+
 app.Run();
