@@ -2,9 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{14EFA8AE-E396-40FD-9408-1A8C7FCA5FE2}"
 	ProjectSection(SolutionItems) = preProject
-		skye-back.Build.props = skye-back.Build.props
 		.editorconfig = .editorconfig
 		docker-compose.yml = docker-compose.yml
+		Directory.Build.Props = Directory.Build.Props
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{622C1892-16F2-401D-9CC2-D0B4A5931934}"
